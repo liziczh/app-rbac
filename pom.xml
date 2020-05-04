@@ -6,7 +6,7 @@
 	<artifactId>app-rbac</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
+	<!--module-->
 	<modules>
 		<module>rbac-api</module>
 		<module>rbac-dao</module>
@@ -16,14 +16,13 @@
 		<module>rbac-redis</module>
 		<module>rbac-ref</module>
 	</modules>
-
 	<!--parent-->
 	<properties>
-		<!--工程属性-->
+		<!--project settings-->
 		<maven.build.timestamp.format>MM/dd/yyyy HH:mm:ss(+8)</maven.build.timestamp.format>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
-		<!--依赖属性-->
+		<!--dependency settings-->
 		<spring-boot.version>2.2.6.RELEASE</spring-boot.version>
 		<mybatis-spring-boot-starter.version>2.1.2</mybatis-spring-boot-starter.version>
 		<mysql.version>8.0.19</mysql.version>
