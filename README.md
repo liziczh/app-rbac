@@ -1,2 +1,2 @@
-# lizi-rbac
+# app-rbac
 rbac
