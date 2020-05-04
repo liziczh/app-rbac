@@ -1,10 +1,10 @@
-package com.liziczh.rbac.ref;
+package com.liziczh.rbac.redis;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RbacRefApplicationTests {
+class RedisApplicationTests {
 	@Test
 	void contextLoads() {
 	}

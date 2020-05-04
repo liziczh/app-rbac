@@ -1,10 +1,10 @@
-package com.liziczh.rbac.service;
+package com.liziczh.rbac.ref;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RbacServiceApplicationTests {
+class ReferenceApplicationTests {
 	@Test
 	void contextLoads() {
 	}

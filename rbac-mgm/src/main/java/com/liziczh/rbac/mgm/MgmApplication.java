@@ -1,11 +1,11 @@
-package com.liziczh.rbac.ref;
+package com.liziczh.rbac.mgm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RbacRefApplication {
+public class MgmApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(RbacRefApplication.class, args);
+		SpringApplication.run(MgmApplication.class, args);
 	}
 }

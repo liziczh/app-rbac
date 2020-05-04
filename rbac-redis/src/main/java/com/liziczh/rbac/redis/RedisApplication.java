@@ -1,11 +1,11 @@
-package com.liziczh.rbac.web;
+package com.liziczh.rbac.redis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RbacWebApplication {
+public class RedisApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(RbacWebApplication.class, args);
+		SpringApplication.run(RedisApplication.class, args);
 	}
 }

@@ -1,10 +1,10 @@
-package com.liziczh.rbac.web;
+package com.liziczh.rbac.mgm;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RbacWebApplicationTests {
+class MgmApplicationTests {
 	@Test
 	void contextLoads() {
 	}

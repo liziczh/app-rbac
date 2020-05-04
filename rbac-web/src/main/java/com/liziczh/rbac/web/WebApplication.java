@@ -1,11 +1,11 @@
-package com.liziczh.rbac.service;
+package com.liziczh.rbac.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RbacServiceApplication {
+public class WebApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(RbacServiceApplication.class, args);
+		SpringApplication.run(WebApplication.class, args);
 	}
 }
