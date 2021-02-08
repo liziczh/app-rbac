@@ -9,13 +9,13 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-@TableName(value = "t_role_permission")
-public class TRolePermission extends BaseEntity {
+@TableName(value = "t_user_group")
+public class TUserGroup extends BaseEntity {
 	private static final long serialVersionUID = -3399850105386695874L;
-	@ApiModelProperty(value = "角色Code")
-	@TableField(value = "ROLE_CODE")
-	private String roleCode;
-	@ApiModelProperty(value = "权限Code")
-	@TableField(value = "PERMISSION_CODE")
-	private String permissionCode;
+	@ApiModelProperty(value = "用户组Code")
+	@TableField(value = "GROUP_CODE")
+	private String groupCode;
+	@ApiModelProperty(value = "账号")
+	@TableField(value = "USERNAME")
+	private String username;
 }
